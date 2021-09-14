@@ -3,8 +3,13 @@ body {
   padding: 0;
   margin: 0;
 }
+.menu,
+.logo_wrapper,
+.btn_wrapper{
+  padding: 14px 0;
+}
 .header {
-  padding: 0 30px 0 20px;
+  padding: 8px 36px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -13,19 +18,21 @@ body {
 }
 .text-logo {
   font-weight: 100;
+  margin: 0;
 }
 .menu {
   font-weight: 600;
   font-size: 1.3em;
-  font-family: monospace;
+  font-family: monospace, sans-serif, Arial;
   text-transform: uppercase;
 }
 .menu div {
   display: inline-block;
+  padding: 0 5px;
 }
 .button-border {
   cursor: pointer;
   border: 1px solid white;
   border-radius: 3px;
-  padding: 5px 15px;
+  padding: 8px 24px;
 }
